@@ -1,18 +1,18 @@
-interface HistoryProps {
-  placedOn: string,
-  total: number,
-  shipTo: string,
-  deliveredOn: string,
-  title?: string,
-  author?: string,
-  returnWindow: string,
-  items?: Stuff[]
-};
-
 interface Stuff {
-  type: string,
-  name: string,
-  price: number,
+  type: string;
+  name: string;
+  price: number;
+}
+
+interface HistoryProps {
+  placedOn: string;
+  total: number;
+  shipTo: string;
+  deliveredOn: string;
+  title?: string;
+  author?: string;
+  returnWindow: string;
+  items?: Stuff[];
 }
 
 const orderHistory: HistoryProps[] = [
@@ -64,4 +64,4 @@ const orderHistory: HistoryProps[] = [
   },
 ];
 
-console.log(orderHistory)
+console.log(orderHistory);
