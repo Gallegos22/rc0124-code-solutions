@@ -7,7 +7,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What is JSX?
   JSX is a JavaScript extension that allows developers to write the code for dynamic DOM creation in a syntax that is very similar to standard HTML.
 - How does React use JSX to render components?
-  By importing, creating a root, and rendering it .
+  Compiles it down to javascript using bable
 
 ## Notes
 
