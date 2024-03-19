@@ -1,5 +1,5 @@
 /* exported reverse */
-// Define a function named
+// Define a function named reverse with a parameter of ant array
 
 function reverse(array: any[]): any {
   const myArray = [];
