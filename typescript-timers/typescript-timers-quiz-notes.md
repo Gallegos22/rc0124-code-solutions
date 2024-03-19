@@ -13,7 +13,9 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the default time delay if you omit the `delay` parameter from `setTimeout()` or `setInterval()`?
   0
 - What do `setTimeout()` and `setInterval()` return?
+
   a positive integer value which identifies the timer created by the call to setTimeout() or setInterval() .
+
 
 ## Notes
 
