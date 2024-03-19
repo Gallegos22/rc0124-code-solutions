@@ -5,6 +5,8 @@ values.forEach(function (numbers) {
   console.log(numbers);
 });
 console.log('Reverse Order: ');
+ array-methods
+values.forEach(function (numbers, index) {
 values.forEach(function (index) {
   console.log(values[values.length - 1 - index]);
 });

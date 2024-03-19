@@ -3,14 +3,6 @@
 ## Quiz Questions
 
 Answer the following questions in the provided markdown file before turning in this exercise:
-
-- `Array.forEach`:
-  - What does `Array.forEach` do?
-    executes a provided function once for each array element.
-  - What should the callback function do?
-    return every element
-  - What is `Array.forEach` useful for?
-    to return each element
 - `Array.map`:
   - What does `Array.map` do?
     creates a new array populated with the results of calling a provided function on every element in the calling array.
