@@ -40,7 +40,11 @@ const tern2 = v2 ? 'truthy' : 'falsy';
 console.log('terns:', tern1, tern2);
 
 const oc1 = v1?.value;
+
+const oc2 = v5.details?.address?.city;
+
 const oc2 = v5.details?.address?.city; // why does it have to be backwards
+
 console.log('ocs:', oc1, oc2);
 
 const obj = { foo: 'bar' };
@@ -50,3 +54,8 @@ console.log('sObj:', sObj);
 
 console.log(v4);
 console.log(obj);
+
+
+const sArr = [100, ...v4];
+console.log('sArr:', sArr);
+
