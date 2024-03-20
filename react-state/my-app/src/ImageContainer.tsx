@@ -6,17 +6,14 @@ type Props = {
 };
 
 export function ImageContainer({ imageSrc }: Props) {
-  const [textIndex, setTextIndex] = useState(0);
+  const [textIndex, setTextIndex] = useState(0); // index is a state variable and setIndex is a setter function
 
   function handleClick() {
     if (textIndex >= imageSrc.length - 1) {
-      console.log(' if textIndex', textIndex);
-      setTextIndex(0);
-      console.log(' after if textIndex', textIndex);
+      // if 0 is greater than or equal to 3
+      setTextIndex(0); // we are setting index to zero
     } else {
-      console.log(' else textIndex', textIndex);
       setTextIndex(textIndex + 1);
-      console.log(' after else textIndex', textIndex);
     }
   }
 
