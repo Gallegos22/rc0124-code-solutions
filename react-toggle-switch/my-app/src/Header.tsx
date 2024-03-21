@@ -1,3 +1,3 @@
 export function Header() {
-  return <h1>Toggle Switch Challenge</h1>;
+  return <h1>Toggle Switch Challenge.</h1>;
 }
