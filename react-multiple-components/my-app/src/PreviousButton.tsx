@@ -1,3 +1,3 @@
 export function PreviousButton() {
-  return <button>Previous</button>
+  return <button>Prev</button>
 }
