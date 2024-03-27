@@ -1,0 +1,29 @@
+.darkPurple {
+  color: white;
+  background-color: darkviolet;
+}
+
+.lightPurple {
+  color: white;
+  background-color: rgb(186, 69, 236);
+}
+
+.lightRed {
+  color: white;
+  background-color: rgb(255, 83, 83);
+}
+
+.lightOrange {
+  color: white;
+  background-color: rgb(255, 199, 96);
+}
+
+.yellow {
+  color: black;
+  background-color: rgb(255, 255, 109);
+}
+
+.white {
+  color: black;
+  background-color: white;
+}
