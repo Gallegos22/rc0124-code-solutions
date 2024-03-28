@@ -9,7 +9,7 @@ How to write `Code Examples` in markdown
 for JS:
 
 ```javascript
-const data = 'Howdy';
+const data = 'Howdy  ';
 ```
 
 for HTML:
