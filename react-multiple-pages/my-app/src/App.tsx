@@ -4,7 +4,7 @@ import { Dashboard } from './pages/Dashboard';
 import { Header } from './components/Header';
 import { NotFound } from './pages/NotFound';
 import { Details } from './pages/Details';
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes } from 'react-router-dom';
 export function App() {
   // const [page, setPage] = useState('dashboard');
   // const [itemId, setItemId] = useState<number>();
@@ -23,10 +23,10 @@ export function App() {
       {page === undefined && <NotFound onDone={() => setPage('dashboard')} />} */}
       <Routes>
         <Route path="/" element={<Header />} />
-          <Route index element={<Dashboard/>}/>
-          <Route path='details/:itemId' element={<Details/>} />
-          <Route path='about' element={<About/>} />
-          <Route path ='*' element={<NotFound/>} />
+        <Route index element={<Dashboard />} />
+        <Route path="details/:itemId" element={<Details />} />
+        <Route path="about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
