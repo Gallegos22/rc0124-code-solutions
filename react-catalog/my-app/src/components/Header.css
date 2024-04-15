@@ -1,5 +1,3 @@
-.nav-bar {
-  display: flex;
-  border: solid red 2px;
-  background-color: rgb(55, 50, 50);
+.title {
+  color: white;
 }
